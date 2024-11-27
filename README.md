@@ -45,10 +45,14 @@ L'objectif principal est de concevoir un système capable de produire des correc
    cd reparation-programmes-genetique
    ```
 
-2. Installez les dépendances nécessaires (pour Python) :
+2. Installez les dépendances nécessaires en utilisant `pip` (si vous utilisez Python) :
+   - Si vous utilisez Python, installez les bibliothèques nécessaires à partir des sources comme `DEAP`, `pytest`, et autres nécessaires à l'exécution du projet.
    ```bash
-   pip install -r requirements.txt
+   pip install deap pytest
    ```
+
+   - Vous pouvez également ajouter toute autre dépendance manuellement, en fonction des bibliothèques que vous utilisez dans le projet.
+
 
 3. Configurez votre environnement pour les autres langages (Java, C++, etc.).
 
@@ -65,8 +69,6 @@ L'objectif principal est de concevoir un système capable de produire des correc
 │   └── tests/           # Tests unitaires et automatisés
 ├── requirements.txt     # Fichier des dépendances Python
 ├── README.md            # Documentation du projet
-├── LICENSE              # Licence du projet
-└── .gitignore           # Fichiers et dossiers à ignorer par Git
 ```
 
 ---
@@ -97,6 +99,14 @@ L'objectif principal est de concevoir un système capable de produire des correc
 - Intégration d'un module d'assistance pour IDE.
 
 ---
+
+## Screenshots
+
+
+![Screenshot 5](https://github.com/dinaftc/project_2cs/raw/main/Screenshot%202024-06-10%20024553.png)
+![Screenshot 6](https://github.com/dinaftc/project_2cs/raw/main/Screenshot%202024-06-10%20024615.png)
+![Screenshot 7](https://github.com/dinaftc/project_2cs/raw/main/Screenshot%202024-06-10%20024722.png)
+![Screenshot 8](https://github.com/dinaftc/project_2cs/raw/main/Screenshot%202024-06-10%20024740.png)
 
 
 
